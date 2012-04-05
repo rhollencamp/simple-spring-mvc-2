@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:tiles="http://tiles.apache.org/tags-tiles" version="2.0">
+    <jsp:directive.page contentType="text/html" pageEncoding="UTF-8"/>
+
+    <html>
+		<head>
+			<title><tiles:insertAttribute name="title" /></title>
+		</head>
+		<body>
+			<tiles:insertAttribute name="body" />
+		</body>
+	</html>
+</jsp:root>
